@@ -1,12 +1,14 @@
 import React, { useState, useEffect } from 'react'
-import { View, Image, Text, Linking, AsyncStorage } from 'react-native'
+import { View, Image, Text, Linking } from 'react-native'
 import { RectButton } from 'react-native-gesture-handler'
+
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 import styles from './styles'
 
 import heartOutlineIcon from '../../../assets/images/icons/heart-outline.png';
 import unfavoriteIcon from '../../../assets/images/icons/unfavorite.png';
-import whatsappIcon from '../../../assets/images/icons/whatsapp.png';
+import whatsappIcon from '../../../assets/images/icons/whatsapp.png';  // eslint-disable-line import/no-unresolved
 // import api from '../../services/api';
 
 export interface Teacher {

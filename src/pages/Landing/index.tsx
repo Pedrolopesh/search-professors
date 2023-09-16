@@ -35,6 +35,10 @@ function Landing(){
         navigate('Study')
     }
 
+    function handleNavigateToPlayground(){
+        navigate('Playground')
+    }
+
     return(
         <View style={styles.container}>
             <Image style={styles.banner} source={landingImg}/>
@@ -68,6 +72,17 @@ function Landing(){
 
                 </RectButton>
             </View>
+
+            {/* <RectButton 
+                onPress={handleNavigateToPlayground} 
+                style={[styles.buttonPlayground, styles.buttonSecondary]}
+            >
+
+                <Text style={styles.buttonText}>
+                    Playground
+                </Text>
+
+            </RectButton> */}
 
             <Text style={styles.totalConnections}>
                 Total de { totalConnections } conexões já realizadas {' '}

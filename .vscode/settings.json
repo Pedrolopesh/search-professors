@@ -3,16 +3,16 @@
         "activityBar.foreground": "#000000",
         "iLoveWorkSpaceColors": true,
         "iLoveWorkSpaceRandom": true,
-        "titleBar.activeBackground": "#bc5f21",
+        "titleBar.activeBackground": "#5396e8",
         "titleBar.activeForeground": "#000000",
-        "titleBar.inactiveBackground": "#bc5f21",
+        "titleBar.inactiveBackground": "#5396e8",
         "titleBar.inactiveForeground": "#000000",
-        "titleBar.border": "#bc5f21",
-        "activityBar.background": "#bc5f21",
-        "statusBar.background": "#bc5f21",
+        "titleBar.border": "#5396e8",
+        "activityBar.background": "#5396e8",
+        "statusBar.background": "#5396e8",
         "statusBar.foreground": "#000000",
-        "statusBar.debuggingBackground": "#bc5f21",
+        "statusBar.debuggingBackground": "#5396e8",
         "statusBar.debuggingForeground": "#000000",
-        "tab.activeBorder": "#bc5f21"
+        "tab.activeBorder": "#5396e8"
     }
 }

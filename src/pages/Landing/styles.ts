@@ -40,6 +40,16 @@ const styles = StyleSheet.create({
         padding: 24,
         justifyContent: 'space-between'
     },
+
+    buttonPlayground: {
+        height: 150,
+        width: '100%',
+        backgroundColor: '#04d361',
+        borderRadius: 8,
+        padding: 24,
+        marginTop: 30,
+        justifyContent: 'space-between'
+    },
     
     buttonPrimary: {
         backgroundColor: '#9871f5'

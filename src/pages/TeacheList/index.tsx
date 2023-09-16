@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { View, ScrollView, Text, TextInput, AsyncStorage } from 'react-native';
+import { View, ScrollView, Text, TextInput } from 'react-native';
 
 // import api from '../../services/api'
 import { teacherData } from '../../../mock/teacherList.json'
@@ -13,6 +13,7 @@ import TeacherItem, { Teacher } from '../../components/TeacherItem';
 
 import { Feather} from '@expo/vector-icons'
 // import AsyncStorage from '@react-native-community/async-storage'
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 function TeacherList(){
     const [teachers, setTeachers] = useState([])
